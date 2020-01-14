@@ -404,24 +404,92 @@ namespace FinalProject
                                         }
                                         else if (userEntry == 2)
                                         {
+                                            part2.DisplayNew();
+                                        }
+                                    }
+                                }
 
+
+
+
+                                else if (userEntry == 2)
+                                {
+                                    Console.WriteLine("I once again start sifting through the fire place expecting to find " +
+                                        "nothing but soot, But to my surprise I insted find what appears to be a crowbar.");
+                                    Console.ReadLine();
+                                    Console.WriteLine("Not wanting to look this gift horse in the mouth I take the crowbar and " +
+                                        "make for the door ready to finaly make some progress.");
+                                    Console.Readline();
+                                    Console.WriteLine("I get to work on trying to open the door and eventually after some effort, " +
+                                        "get the door open.");
+                                    Console.WriteLine("A mix of emotions flood through me none of which are releif. I am met with " +
+                                        "the site of dank room with a table with some papers adorning it, and 3 door lead who knows where.");
+                                    Console.WriteLine("I dont have time to waist so I creep over to the doors and turn the nobs, they're not locked");
+                                    Console.WriteLine("Peak through each one of them and to my great dissmay, the are all the exact same room. I look back at the " +
+                                        "room I came from and fined to my horror, the room is just the hallway as seen through the middle door.");
+                                    Console.WriteLine("The doors are space a bit to far for me to open them all at once.");
+                                    Console.WriteLine("Looks like I have no choice but to make my way through the doors one at a time, I mean what are the chances this is a PT moment?");
+                                    Console.WriteLine("I can either go through the door on the Right, Left, or Middle.");
+
+                                    userEntry = Convert.ToInt32(Console.ReadLine());
+                                    bool again = true;
+                                    while (again)
+                                    {
+                                        if (userEntry == Right)
+                                        {
+                                            Console.WriteLine("The room looks the exact same as the first even has the shoe I left. I take a few steps in and the door slams behind me. " +
+                                                "No back Tracking I guess");
+                                        }
+                                        else if (userEntry == Left)
+                                        {
+                                            Console.WriteLine("The room looks the exact same as the first even has the shoe I left. I take a few steps in and the door slams behind me. " +
+                                                "No back Tracking I guess");
+                                        }
+                                        else if (userEntry == Middle)
+                                        {
+                                            Console.WriteLine("Ok Nice no shoe in here. Still the same hall though.");
+                                            again = false;
+
+
+                                        }
+
+                                    }
+                                    Console.WriteLine("Where to go now?");
+                                    while (again)
+                                    {
+                                        if (userEntry == Right)
+                                        {
+                                            Console.WriteLine("Awesome same room as the first. Please dont let the be the actual first room.");
+                                        }
+                                        else if (userEntry == Left)
+                                        {
+                                            Console.WriteLine("Awesome same room as the first. Please dont let the be the actual first room.");
+                                        }
+                                        else if (userEntry == Middle)
+                                        {
+                                            Console.WriteLine("Now we're in busness");
+                                            again = false;
                                         }
                                     }
                                 }
                             }
+
                         }
                     }
                 }
-            }        
-        }      
-    public static void Ending()
-            {
-                Console.WriteLine("As time progresses I feel myself loosing consiousness.");
-                Console.ReadLine();
-                Console.WriteLine("I try my hardest but am only met with darkness.");
-                Console.ReadLine();
-                Console.WriteLine("My mind fades.");
             }
-        
+        }
+    }
+    public static void Ending()
+    {
+        {
+            Console.WriteLine("As time progresses I feel myself loosing consiousness.");
+            Console.ReadLine();
+            Console.WriteLine("I try my hardest but am only met with darkness.");
+            Console.ReadLine();
+            Console.WriteLine("My mind fades.");
+        }
+
     }
 }
+
