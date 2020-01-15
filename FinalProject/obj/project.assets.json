@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\monta\\Desktop\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "projectUniqueName": "C:\\Users\\monta\\Documents\\Visual Studio 2019\\FinalProject\\FinalProject\\FinalProject.csproj",
       "projectName": "FinalProject",
-      "projectPath": "C:\\Users\\monta\\Desktop\\FinalProject\\FinalProject\\FinalProject.csproj",
+      "projectPath": "C:\\Users\\monta\\Documents\\Visual Studio 2019\\FinalProject\\FinalProject\\FinalProject.csproj",
       "packagesPath": "C:\\Users\\monta\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\monta\\Desktop\\FinalProject\\FinalProject\\obj\\",
+      "outputPath": "C:\\Users\\monta\\Documents\\Visual Studio 2019\\FinalProject\\FinalProject\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\monta\\AppData\\Roaming\\NuGet\\NuGet.Config",
