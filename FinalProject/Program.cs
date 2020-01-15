@@ -9,13 +9,13 @@ namespace FinalProject
             int userEntry;
             Console.WriteLine("Disterbia");
 
-            Console.WriteLine("Stranger: Hey there stranger you seem to be in quit a predicamend out here hu.");
+            Console.WriteLine("Stranger: Hey there stranger you seem to be in quit a predicamend out here.");//Color this text red
             Console.ReadLine();
-            Console.WriteLine("Stranger: Your not hurt are you?");
+            Console.WriteLine("Stranger: Your not hurt are you?");//red
             Console.ReadLine();
-            Console.WriteLine("Uh I think... ");
+            Console.WriteLine("Uh I think... ");//yellow or as close as you can get
             Console.ReadLine();
-            Console.WriteLine("1: My head hurts!...");
+            Console.WriteLine("1: My head hurts!...");//yellow
             //Console.WriteLine();
             //Console.WriteLine("2: My ???? Hurts!...");
             //Console.WriteLine();
@@ -27,11 +27,11 @@ namespace FinalProject
 
             if (userEntry == 1)
             {
-                Console.WriteLine("Stranger: Yeah that doesnt look to good we should get you bandaged up prompto.");
+                Console.WriteLine("Stranger: Yeah that doesnt look to good we should get you bandaged up prompto.");//red
                 //Console.ReadLine();
                 //Console.WriteLine("What should I say?");
                 //Console.WriteLine();
-                Console.WriteLine("1: What happend to me?...");
+                Console.WriteLine("1: What happend to me?...");//yellow
                 //Console.WriteLine();
                 //Console.WriteLine("2: Where are you taking me?...");
                 //Console.WriteLine();
@@ -42,9 +42,9 @@ namespace FinalProject
                 userEntry = Convert.ToInt32(Console.ReadLine());
                 if (userEntry == 1)
                 {
-                    Console.WriteLine("Stranger: Im not too sure, but it would apear that you had fallen out of the sky.");
+                    Console.WriteLine("Stranger: Im not too sure, but it would apear that you had fallen out of the sky.");//red
                     Console.ReadLine();
-                    Console.WriteLine("What you were doing up there alludes me, but at least your ok.");
+                    Console.WriteLine("What you were doing up there alludes me, but at least your ok.");//From here just know that all the text that belong to the stranger will be red, and the player will be yellow.
                     Console.ReadLine();
                     Console.WriteLine("Right?");
                     Console.ReadLine();
@@ -85,31 +85,33 @@ namespace FinalProject
                         Console.ReadLine();
                         Console.WriteLine("My eyes slowly adjust to the darkness of the room were in I can see cob webs adornning the windos and corners.");
                         Console.ReadLine();
-                        Console.WriteLine("A cold breeze passes the backof my neck sending chills down my body cousing me to shiver.");
+                        Console.WriteLine("A cold breeze passes the back of my neck sending chills down my body cousing me to shiver.");
                         Console.ReadLine();
                         Console.WriteLine("What happend here?");
                         Console.ReadLine();
                         Console.WriteLine("Upon further inspection of the room you find a door, a fireplace, and a cracked window.");
                         Console.ReadLine();
-                        Console.WriteLine("Where should I go First?");
-                        Console.ReadLine();
-                        Console.WriteLine();
-                        Console.WriteLine();
-                        Console.WriteLine("1: Make my way to the door.");
-                        Console.WriteLine();
-                        Console.WriteLine("2: take a look in the fire place.");
-                        Console.WriteLine();
-                        Console.WriteLine("3: try to escape out the window");
+                        Console.WriteLine("I make my way over to the door and try opening it but its locked.");
+                       // Console.WriteLine("Where should I go First?");
+                        //Console.ReadLine();
+                       // Console.WriteLine();
+                        //Console.WriteLine();
+                       // Console.WriteLine("1: Make my way to the door.");
+                       // Console.WriteLine();
+                       // Console.WriteLine("2: take a look in the fire place.");
+                       // Console.WriteLine();
+                       // Console.WriteLine("3: try to escape out the window");
 
-                        userEntry = Convert.ToInt32(Console.ReadLine());
+                        //userEntry = Convert.ToInt32(Console.ReadLine());
 
 
-                        if (userEntry == 1)
-                        {
+                        //if (userEntry == 1)
+                        
                             Console.WriteLine("I make my way over to the door and just as I thought, it's locked.");
                             Console.ReadLine();
-                            Console.WriteLine("I dought that there's a key near by but I think if I can find something that I can" +
+                            Console.WriteLine("I dought that there's a key near by but, if I can find something that I can" +
                                 "jam into the door I should be able to break it open.");
+                            Console.ReadLine();
                             Console.WriteLine("I guess I can investigate the rest of the room.");
                             Console.WriteLine();
                             Console.WriteLine("1: Take a look in the fireplace.");
@@ -123,10 +125,10 @@ namespace FinalProject
                                 Console.ReadLine();
                                 Console.WriteLine("I fine nothing but dirty hands.");
                                 Console.ReadLine();
-                                Console.WriteLine("I guess it couldn't hurt to check the window, werst case senario I dive out the window.");
+                                Console.WriteLine("I guess it couldn't hurt to check the window, worst case senario I dive out the window.");
                                 Console.ReadLine();
                                 Console.WriteLine("I make my way over to the wind and atempt to open it. It cracks open a little but it feels like " +
-                                    "the window was frozen. Im pretty sure I could brake the window but I dought that I will get out unscathed.");
+                                    "the window is frozen. Im pretty sure I could brake the window if I dive through it.");
                                 Console.ReadLine();
                                 Console.WriteLine("I guess I have no other choice, time to make a move. I take a couple of steps back and " +
                                     "then run at the window ready to dive through it.");
@@ -202,7 +204,7 @@ namespace FinalProject
                                             Console.ReadLine();
                                             Console.WriteLine("1: get in touch with the door.");
                                             Console.WriteLine();
-                                            Console.WriteLine("2: FIIREE!!!");
+                                            Console.WriteLine("2: FIIREE!!!");//This should be blue
 
                                             userEntry = Convert.ToInt32(Console.ReadLine());
                                             if (userEntry == 1)
@@ -237,7 +239,7 @@ namespace FinalProject
                                         "Take another look.");
                                 }
                             }
-                        }
+                        
                         else if (userEntry == 2)
                         {
                             Console.WriteLine("I guess I can check the fire place for something, I dought I'll find anything of use but at least I should " +
@@ -385,9 +387,9 @@ namespace FinalProject
                                     Console.WriteLine("Well im just waisting time standing out here better make a move before I catch something.");
                                     Console.ReadLine();
                                     Console.WriteLine();
-                                    Console.WriteLine("1: COME BACK HOME.");
+                                    Console.WriteLine("1: COME BACK HOME.");//blue
                                     Console.WriteLine();
-                                    Console.WriteLine("2: Die");
+                                    Console.WriteLine("2: Die");//red
 
                                     userEntry = Convert.ToInt32(Console.ReadLine());
 
