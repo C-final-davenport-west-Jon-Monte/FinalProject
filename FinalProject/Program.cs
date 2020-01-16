@@ -587,6 +587,9 @@ namespace FinalProject
                                             again = false;
                                         }
                                     }
+                                    Console.WriteLine("Congradulations you have escaped the hall way but not the house.");
+                                    Console.ReadLine("Due to time constraints and bugget cuts we were unable to finish the game but " +
+                                        "we have plans for future DLC at a very chaitable price of $999.99-EA.");
                                 }
                             }
                         }
