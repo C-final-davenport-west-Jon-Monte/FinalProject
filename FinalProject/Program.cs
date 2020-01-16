@@ -485,6 +485,7 @@ namespace FinalProject
         {
             Console.WriteLine("As time progresses I feel myself loosing consiousness.");
             Console.ReadLine();
+            //whwhwhwhwhh
             Console.WriteLine("I try my hardest but am only met with darkness.");
             Console.ReadLine();
             Console.WriteLine("My mind fades.");
