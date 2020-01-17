@@ -419,7 +419,7 @@ namespace FinalProject
                                     Console.ReadLine();
                                     Console.WriteLine("Not wanting to look this gift horse in the mouth I take the crowbar and " +
                                         "make for the door ready to finaly make some progress.");
-                                    Console.Readline();
+                                    Console.ReadLine();
                                     Console.WriteLine("I get to work on trying to open the door and eventually after some effort, " +
                                         "get the door open.");
                                     Console.WriteLine("A mix of emotions flood through me none of which are releif. I am met with " +
@@ -435,37 +435,37 @@ namespace FinalProject
                                     bool again = true;
                                     while (again)
                                     {
-                                        if (userEntry == Right)
+                                        if (userEntry == 1)
                                         {
                                             Console.WriteLine("The room looks the exact same as the first even has the shoe I left. I take a few steps in and the door slams behind me. " +
                                                 "No back Tracking I guess");
                                         }
-                                        else if (userEntry == Left)
+                                        else if (userEntry == 2)
                                         {
                                             Console.WriteLine("The room looks the exact same as the first even has the shoe I left. I take a few steps in and the door slams behind me. " +
                                                 "No back Tracking I guess");
                                         }
-                                        else if (userEntry == Middle)
+                                        else if (userEntry == 3)
                                         {
                                             Console.WriteLine("Ok Nice no shoe in here. Still the same hall though.");
                                             again = false;
 
 
                                         }
-
+                                        userEntry = Convert.ToInt32(Console.ReadLine());
                                     }
                                     Console.WriteLine("Where to go now?");
                                     while (again)
                                     {
-                                        if (userEntry == Right)
+                                        if (userEntry == 1)
                                         {
                                             Console.WriteLine("Awesome same room as the first. Please dont let the be the actual first room.");
                                         }
-                                        else if (userEntry == Left)
+                                        else if (userEntry == 2)
                                         {
                                             Console.WriteLine("Awesome same room as the first. Please dont let the be the actual first room.");
                                         }
-                                        else if (userEntry == Middle)
+                                        else if (userEntry == 3)
                                         {
                                             Console.WriteLine("Now we're in busness");
                                             again = false;
@@ -479,17 +479,6 @@ namespace FinalProject
                 }
             }
         }
-    }
-    public static void Ending()
-    {
-        {
-            Console.WriteLine("As time progresses I feel myself loosing consiousness.");
-            Console.ReadLine();
-            Console.WriteLine("I try my hardest but am only met with darkness.");
-            Console.ReadLine();
-            Console.WriteLine("My mind fades.");
-        }
-
     }
 }
 
